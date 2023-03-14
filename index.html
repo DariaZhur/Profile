@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">            
+    <title>User profile</title>
+</head>
+<body class="body">
+    <div class="main-profile">
+      <a href="#" class="main-link">Головна</a>
+      <span>/</span>
+      <a href="#" class="profile-link">Профіль</a>
+    </div>
+    <div class="main">
+      <div class="col-left">
+        <div class="photo-block">
+          <img src="img/user_photo.png" alt="User photo" width="180" height="180" class="photo">
+        </div>
+        <h1>Антон Домбровський</h1>
+        <p class="text-green user-name">A.Dombrovskiy</p>
+        <p class="text-uppercase text-green contacts">Контакти</p>
+        <div class="hr"></div>
+        <address class="address">
+          <ul class="list">
+            <li class="list-adress">
+              <img src="img/frame.svg" alt="map">
+              <a
+                href="https://goo.gl/maps/jFtmExKR9ys63jF69"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="link">
+                807 5th Ave, New York, NY 10065, USA
+              </a>
+            </li>
+            <li class="list-adress">
+              <img src="img/group.svg" alt="telephone">
+              <a href="tel:+12125550160" class="link">+1-(212)-555-0160</a>
+            </li>
+            <li class="list-adress">
+              <img src="img/mail.svg" alt="email">
+              <a href="mailto:univer@gmail.com" class="link">univer@gmail.com</a>
+            </li>
+          </ul>
+        </address>
+        <p class="text-uppercase text-green social">Соціальні мережі</p>
+        <div class="hr"></div>
+        <ul>
+          <li class="text-green social"><a href="https://www.facebook.com/" class="link">Facebook</a></li>
+          <li class="text-green social"><a href="https://www.instagram.com/" class="link">Instagram</a></li>
+          <li class="text-green social"><a href="https://www.viber.com/" class="link">Viber</a></li>
+        </ul>
+        <p class="text-uppercase text-green education">Освіта / Робота</p>
+        <div class="hr"></div>
+        <p><span class="text-green education">Освіта: </span><span class="text-uppercase">Внту</span></p>
+        <p><span class="text-green education">Працює: </span><span class="text-uppercase">Тов "Еліт"</span> з 9:00 до 18:00</p>
+        <p><span class="text-green education">Форма навчання: </span>вечірня</p>
+        <p><span class="text-green education">Тренер: </span>Vinnytsia IT Akademy</p>  
+      </div>
+      <div class="col-right">
+        <div class="right">
+          <div class="col-4 offerta block">
+            <div class="google-docs">
+              <img src="img/google-docs.svg" class="google-docs-img" alt="google-docs" width="47">
+            </div>
+            <p>Публічна оферта</p>
+          </div>
+          <div class="col-8 progress block">
+            <div class="progress-bar">
+              <p class="progress-text">Профіль заповнено на 68%</p>
+              <div class="value"><div class="value-box" style="width: 68%;"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs block">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-service-tab" data-bs-toggle="pill" data-bs-target="#pills-service" type="button" role="tab" aria-controls="pills-service" aria-selected="true">Сервіси</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-project-tab" data-bs-toggle="pill" data-bs-target="#pills-project" type="button" role="tab" aria-controls="pills-project" aria-selected="false">Проєкт</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-rewiew-tab" data-bs-toggle="pill" data-bs-target="#pills-rewiew" type="button" role="tab" aria-controls="pills-rewiew" aria-selected="false">Відгук</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button" role="tab" aria-controls="pills-certificate" aria-selected="false">Сертифікат</button>
+            </li>
+          </ul>
+        </div>
+          <div class="tab-content block" id="pills-tabContent">
+            <div class="tab-pane fade show active servises" id="pills-service" role="tabpanel" aria-labelledby="pills-service-tab" tabindex="0">
+              <div class="service">
+                <p class="service-text text-uppercase">Курси</p>
+                <div class="service-hr"></div>
+              </div>
+              <a href="https://intita.com/courses/1" class="link-course" target="_blank">
+                <div class="course1">
+                  <div class="card-main">
+                    <div class="card-text">
+                      <p class="text-course">Інтернет-програміст (Full Stack, РНР)</p>
+                      <p class="text-akademy">Вінницька ІТ-Академія</p>
+                    </div>
+                    <div>
+                      <img src="img/user_photo.png" class="photo-card" alt="user photo" width="104">
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <img src="img/rating.svg"  class="rating" alt="rating" width="28" height="17">
+                    <p class="hight">Високий</p>
+                    <p class="time">12 місяців (34 заняття)</p>
+                    <img src="img/world.svg" class="world" alt="world icon" width="19">
+                    <p class="ua">ua</p>
+                  </div>
+                </div>
+              </a>
+              <div class="service">
+                <p class="service-text text-uppercase">Модулі</p>
+                <div class="service-hr-mod"></div>
+              </div>
+              <a href="https://intita.com/courses/13" class="link-course" target="_blank">
+              <div class="course1">
+                <div class="card-main">
+                  <div class="card-text">
+                    <p class="text-course">Англійська мова для програмістів (English Sprint)</p>
+                    <p class="text-akademy">Вінницька ІТ-Академія</p>
+                  </div>
+                  <div>
+                    <img src="img/user_photo.png" class="photo-card" alt="user photo" width="104">
+                  </div>
+                </div>
+                <div class="card-footer-module">
+                  <img src="img/rating.svg"  class="rating" alt="rating" width="28" height="17">
+                  <p class="hight">Високий</p>
+                  <p class="time">12 місяців (34 заняття)</p>
+                  <img src="img/world.svg" class="world" alt="world icon" width="19">
+                  <p class="ua">ua</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabindex="0"></div>
+            <div class="tab-pane fade" id="pills-rewiew" role="tabpanel" aria-labelledby="pills-rewiew-tab" tabindex="0">
+              <p class="text-rewiew">Три года работал на гос. службе системным администратором,  десять лет в банковской сфере. Последние шесть лет непосредственно с клиентами. Работа не приносила удовольствия,  но сложно было покинуть зону комфорта. В один момент решился. Немаловажно, что поддержали родные.  За что им отдельное спасибо. 
+                Долго выбирал курсы IT, но постоянно смущала их длительность (в основном 3 месяца). Я понимал, что за три месяца научится с нуля нереально. Супруга увидела рекламу Винницкой IT-Академии. Съездил на презентацию, заплатил за все обучение вперёд (чтобы наверняка) и понеслось. 
+                Старался не пропускать ни одного занятия. Все преподаватели внесли ассоциации определенный вклад в мое развитие. Особенно хочу отметить (т.к. с ними проводил наибольшее количество учебного времени) Алексея Тюренкова - по моему мнению профессионал своего дела да и не только, Юрий Митюшкин - разложил основы программирования по полочкам, преподаватели английского - всегда интересные занятия, Борис Могила - менторил командные проекты, Александр Панченко - ментор, человек, который помог с трудоустройством. На самом деле этот список можно продолжать долго.     Конечно были, как и везде минусы, это некоторые организационные моменты, но, в целом, цель достигнута, а это самое главное. Спасибо преподавателям а также административному составу ІТ-Академии.
+              </p>
+            </div>
+            <div class="tab-pane fade diplom" id="pills-certificate" role="tabpanel" aria-labelledby="pills-certificate-tab" tabindex="0">
+              <img src="img/certificate.jpg" alt="diplom" class="diplom-img" height="600">
+            </div>
+          </div>
+      </div>
+      <div class="social-icon block">
+          <a href="https://www.facebook.com/" class="social-link"><img src="img/icon/facebook.png" alt="facebook"></a>
+          <a href="https://www.linkedin.com/in/anton-dombrovskyi-javascript-dev/" class="social-link"><img src="img/icon/linkedin.png" alt="linkedin"></a>
+          <a href="https://twitter.com/" class="social-link"><img src="img/icon/twitter.png" alt="twitter"></a>
+          <a href="https://www.tiktok.com/" class="social-link"><img src="img/icon/tiktok.png" alt="tiktok"></a>
+          <a href="https://www.instagram.com/" class="social-link"><img src="img/icon/instagram.png" alt="instagram"></a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
